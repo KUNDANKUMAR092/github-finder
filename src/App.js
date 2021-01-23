@@ -1,13 +1,15 @@
 import './App.css';
 
 import Navbar from './component/layout/Navbar';
-import UserItem from './component/users/UserItem';
+import Users from './component/users/Users';
 
 function App() {
   return (
     <div className="App">
       <Navbar title="Github finder"/>
-      <UserItem/>
+      <div className="container">
+        <Users/>
+      </div>
     </div>
   );
 }
