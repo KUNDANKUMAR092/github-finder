@@ -1,13 +1,10 @@
 import React, { Component } from 'react'
 
 export class Navbar extends Component {
-    static defaultProps = {
-        title : 'Github fider'
-    } 
     render() {
         return (
             <nav className="navbar bg-primary">
-                {this.props.title}
+                <span><i class="fab fa-github"></i>{this.props.title}</span>
             </nav>
         )
     }
