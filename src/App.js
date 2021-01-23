@@ -6,7 +6,7 @@ import Users from './component/users/Users';
 function App() {
   return (
     <div className="App">
-      <Navbar title="Github finder"/>
+      <Navbar />
       <div className="container">
         <Users/>
       </div>
